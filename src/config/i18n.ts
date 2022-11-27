@@ -1,5 +1,5 @@
-import en from '../translation/en';
-import vi from '../translation/vi';
+import en from 'src/translation/en';
+import vi from 'src/translation/vi';
 import i18n from 'i18next';
 import {initReactI18next} from 'react-i18next';
 

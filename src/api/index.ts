@@ -1,6 +1,6 @@
 import axios, {AxiosRequestConfig, AxiosResponse} from 'axios';
-import {getToken, removeToken} from '../utils/token';
-import {API_URL} from '../config/constant';
+import {getToken, removeToken} from 'src/utils/token';
+import {API_URL} from 'src/config/constant';
 
 const axiosClient = axios.create({
   baseURL: API_URL,

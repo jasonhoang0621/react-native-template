@@ -3,8 +3,8 @@ import React from 'react';
 import Toast from 'react-native-toast-message';
 import {QueryCache, QueryClient, QueryClientProvider} from 'react-query';
 import {Provider} from 'react-redux';
-import Navigation from './navigation';
-import store from './store';
+import Navigation from 'src/navigation';
+import store from 'src/store';
 
 const queryCache = new QueryCache();
 const queryClient = new QueryClient({
