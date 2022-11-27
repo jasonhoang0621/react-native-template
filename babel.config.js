@@ -1,7 +1,7 @@
 module.exports = {
   presets: ['module:metro-react-native-babel-preset'],
   plugins: [
-    // ... some other plugins
+    ['nativewind/babel'],
     [
       'module-resolver',
       {
